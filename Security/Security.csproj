@@ -41,6 +41,7 @@
   <ItemGroup>
     <Compile Include="AESHelper.cs" />
     <Compile Include="DESHelper.cs" />
+    <Compile Include="EncryptType.cs" />
     <Compile Include="MD5Helper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

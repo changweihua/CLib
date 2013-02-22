@@ -45,6 +45,8 @@ namespace ConsoleTest
             Console.WriteLine(b);
             Console.WriteLine(CLib.Security.AESHelper.DecryptAES(b));
 
+            Console.WriteLine(CLib.Network.NetworkHelper.GetConnectionStatus("www.baidu.com"));
+
             Console.ReadLine();
         }
     }
