@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm", "WinForm\WinForm.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{FB2477FC-7C57-4D46-88F7-E0EA807F4388}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension", "Extension\Extension.csproj", "{EB906F2D-3F9E-453A-95B1-7AFD4B228E9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -43,6 +45,10 @@ Global
 		{FB2477FC-7C57-4D46-88F7-E0EA807F4388}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FB2477FC-7C57-4D46-88F7-E0EA807F4388}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FB2477FC-7C57-4D46-88F7-E0EA807F4388}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB906F2D-3F9E-453A-95B1-7AFD4B228E9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB906F2D-3F9E-453A-95B1-7AFD4B228E9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB906F2D-3F9E-453A-95B1-7AFD4B228E9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB906F2D-3F9E-453A-95B1-7AFD4B228E9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

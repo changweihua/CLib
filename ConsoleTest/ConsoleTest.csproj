@@ -53,6 +53,10 @@
       <Project>{77031c93-7e2d-45be-9973-b4db1ef8c5ae}</Project>
       <Name>Image</Name>
     </ProjectReference>
+    <ProjectReference Include="..\Security\Security.csproj">
+      <Project>{788554f7-4f9e-442c-bc40-aae031ee5695}</Project>
+      <Name>Security</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

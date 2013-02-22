@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{788554F7-4F9E-442C-BC40-AAE031EE5695}</ProjectGuid>
+    <ProjectGuid>{EB906F2D-3F9E-453A-95B1-7AFD4B228E9A}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CLib.Security</RootNamespace>
-    <AssemblyName>Security</AssemblyName>
+    <RootNamespace>CLib.Extension</RootNamespace>
+    <AssemblyName>Extension</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,16 +39,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AESHelper.cs" />
-    <Compile Include="DESHelper.cs" />
-    <Compile Include="MD5Helper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Extension\Extension.csproj">
-      <Project>{eb906f2d-3f9e-453a-95b1-7afd4b228e9a}</Project>
-      <Name>Extension</Name>
-    </ProjectReference>
+    <Compile Include="StringExtension.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

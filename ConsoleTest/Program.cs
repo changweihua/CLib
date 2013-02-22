@@ -36,7 +36,14 @@ namespace ConsoleTest
             Console.WriteLine("星宿：" + cc.ChineseConstellation);
             Console.WriteLine("星座：" + cc.Constellation);
 
-            CLib.Image.WaterMarkImage.SaveImage();
+            //CLib.Image.WaterMarkImage.SaveImage();
+
+            string a = "明文";
+
+            Console.WriteLine(a);
+            string b = CLib.Security.AESHelper.EncryptAES(a);
+            Console.WriteLine(b);
+            Console.WriteLine(CLib.Security.AESHelper.DecryptAES(b));
 
             Console.ReadLine();
         }
