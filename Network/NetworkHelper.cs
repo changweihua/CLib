@@ -6,7 +6,7 @@ using System.Net.NetworkInformation;
 using System.Runtime.InteropServices;
 using System.Text;
 
-namespace CLib.Network
+namespace CLib.CNetwork
 {
     #region 关于
     /*************************************************************************************

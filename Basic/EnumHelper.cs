@@ -1,11 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.Specialized;
+using System.ComponentModel;
 using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace CLib.Basic
+namespace CLib.CBasic
 {
     #region 关于
     /*************************************************************************************
@@ -93,6 +94,81 @@ namespace CLib.Basic
             }
 
             return list;
+        }
+
+        /// <summary>
+        /// 获取枚举值
+        /// </summary>
+        /// <param name="t"></param>
+        /// <param name="v"></param>
+        /// <returns></returns>
+        private static string GetName(System.Type t, object v)
+        {
+            try
+            {
+                return Enum.GetName(t, v);
+            }
+            catch
+            {
+                return "UNKNOWN";
+            }
+        }
+
+        /// <summary>
+        /// 获取枚举值
+        /// </summary>
+        /// <param name="v"></param>
+        /// <returns></returns>
+        private static string GetName(object v)
+        {
+            try
+            {
+                return Enum.GetName(v.GetType(), v);
+            }
+            catch
+            {
+                return "UNKNOWN";
+            }
+        }
+
+
+        /// <summary>
+        /// 返回指定枚举类型的指定值的描述
+        /// </summary>
+        /// <param name="t">枚举类型</param>
+        /// <param name="v">枚举值</param>
+        /// <returns></returns>
+        public static string GetDescription(System.Type t, object v)
+        {
+            try
+            {
+                FieldInfo oFieldInfo = t.GetField(GetName(t, v));
+                DescriptionAttribute[] attributes = (DescriptionAttribute[])oFieldInfo.GetCustomAttributes(typeof(DescriptionAttribute), false);
+                return (attributes.Length > 0) ? attributes[0].Description : GetName(t, v);
+            }
+            catch
+            {
+                return "UNKNOWN";
+            }
+        }
+        /// <summary>
+        /// 返回指定枚举类型的指定值的描述
+        /// </summary>
+        /// <param name="v">枚举值</param>
+        /// <returns></returns>
+        public static string GetDescription(object v)
+        {
+            try
+            {
+                Type t = v.GetType();
+                FieldInfo oFieldInfo = t.GetField(GetName(t, v));
+                DescriptionAttribute[] attributes = (DescriptionAttribute[])oFieldInfo.GetCustomAttributes(typeof(DescriptionAttribute), false);
+                return (attributes.Length > 0) ? attributes[0].Description : GetName(t, v);
+            }
+            catch
+            {
+                return "UNKNOWN";
+            }
         }
 
 

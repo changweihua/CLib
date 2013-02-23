@@ -5,7 +5,7 @@ using System.Drawing.Imaging;
 using System.Linq;
 using System.Text;
 
-namespace CLib.Image
+namespace CLib.CImage
 {
 	#region 关于
 	/*************************************************************************************

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace CLib.Basic
+namespace CLib.CBasic
 {
     #region 关于
     /*************************************************************************************

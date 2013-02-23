@@ -7,8 +7,8 @@
     <ProjectGuid>{6B69A121-82A4-4164-BE79-D923B362CB2D}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CLib.Basic</RootNamespace>
-    <AssemblyName>Basic</AssemblyName>
+    <RootNamespace>CLib.CBasic</RootNamespace>
+    <AssemblyName>CBasic</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

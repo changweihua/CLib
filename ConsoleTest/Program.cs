@@ -9,7 +9,7 @@ namespace ConsoleTest
     {
         static void Main(string[] args)
         {
-            //CLib.Image.VerificationCode vc = new CLib.Image.VerificationCode();
+            //CLib.CImage.VerificationCode vc = new CLib.CImage.VerificationCode();
             //string code = vc.CreateVerifyCode();
             //vc.SaveImage(code);
             //Console.WriteLine("生成成功" + code);
@@ -45,7 +45,7 @@ namespace ConsoleTest
             Console.WriteLine(b);
             Console.WriteLine(CLib.Security.AESHelper.DecryptAES(b));
 
-            Console.WriteLine(CLib.Network.NetworkHelper.GetConnectionStatus("www.baidu.com"));
+            Console.WriteLine(CLib.Basic.EnumHelper.GetDescription(CLib.Network.NetworkHelper.GetConnectionStatus("www.baidu.com")));
 
             Console.ReadLine();
         }

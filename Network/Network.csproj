@@ -7,8 +7,8 @@
     <ProjectGuid>{6A90815B-5B2D-4D00-BD9F-C2406A63BCBD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CLib.Network</RootNamespace>
-    <AssemblyName>Network</AssemblyName>
+    <RootNamespace>CLib.CNetwork</RootNamespace>
+    <AssemblyName>CNetwork</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

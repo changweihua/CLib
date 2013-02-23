@@ -5,7 +5,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Network", "Network\Network.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security", "Security\Security.csproj", "{788554F7-4F9E-442C-BC40-AAE031EE5695}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Image", "Image\Image.csproj", "{77031C93-7E2D-45BE-9973-B4DB1EF8C5AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CImage", "Image\CImage.csproj", "{77031C93-7E2D-45BE-9973-B4DB1EF8C5AE}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic", "Basic\Basic.csproj", "{6B69A121-82A4-4164-BE79-D923B362CB2D}"
 EndProject

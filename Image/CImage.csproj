@@ -7,8 +7,8 @@
     <ProjectGuid>{77031C93-7E2D-45BE-9973-B4DB1EF8C5AE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CLib.Image</RootNamespace>
-    <AssemblyName>Image</AssemblyName>
+    <RootNamespace>CLib.CImage</RootNamespace>
+    <AssemblyName>CImage</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ImageStringHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="VerificationCode.cs" />
     <Compile Include="WaterMarkImage.cs" />

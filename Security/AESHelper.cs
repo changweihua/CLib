@@ -5,7 +5,7 @@ using System.Security.Cryptography;
 using System.Text;
 using CLib.Extension;
 
-namespace CLib.Security
+namespace CLib.CSecurity
 {
     #region 关于
     /*************************************************************************************
