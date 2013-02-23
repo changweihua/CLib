@@ -45,21 +45,21 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Basic\Basic.csproj">
+    <ProjectReference Include="..\Basic\CBasic.csproj">
       <Project>{6b69a121-82a4-4164-be79-d923b362cb2d}</Project>
-      <Name>Basic</Name>
+      <Name>CBasic</Name>
     </ProjectReference>
     <ProjectReference Include="..\Image\CImage.csproj">
       <Project>{77031c93-7e2d-45be-9973-b4db1ef8c5ae}</Project>
       <Name>CImage</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Network\Network.csproj">
+    <ProjectReference Include="..\Network\CNetwork.csproj">
       <Project>{6a90815b-5b2d-4d00-bd9f-c2406a63bcbd}</Project>
-      <Name>Network</Name>
+      <Name>CNetwork</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Security\Security.csproj">
+    <ProjectReference Include="..\Security\CSecurity.csproj">
       <Project>{788554f7-4f9e-442c-bc40-aae031ee5695}</Project>
-      <Name>Security</Name>
+      <Name>CSecurity</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

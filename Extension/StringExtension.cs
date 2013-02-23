@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 
-namespace CLib.Extension
+namespace CLib.CExtension
 {
     #region 关于
     /*************************************************************************************

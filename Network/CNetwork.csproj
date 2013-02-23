@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{788554F7-4F9E-442C-BC40-AAE031EE5695}</ProjectGuid>
+    <ProjectGuid>{6A90815B-5B2D-4D00-BD9F-C2406A63BCBD}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>CLib.CSecurity</RootNamespace>
-    <AssemblyName>CSecurity</AssemblyName>
+    <RootNamespace>CLib.CNetwork</RootNamespace>
+    <AssemblyName>CNetwork</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -29,6 +29,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>logo.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -39,17 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AESHelper.cs" />
-    <Compile Include="DESHelper.cs" />
-    <Compile Include="EncryptType.cs" />
-    <Compile Include="MD5Helper.cs" />
+    <Compile Include="NetworkHelper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Extension\Extension.csproj">
-      <Project>{eb906f2d-3f9e-453a-95b1-7afd4b228e9a}</Project>
-      <Name>Extension</Name>
-    </ProjectReference>
+    <Content Include="logo.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

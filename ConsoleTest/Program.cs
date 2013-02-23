@@ -41,11 +41,11 @@ namespace ConsoleTest
             string a = "明文";
 
             Console.WriteLine(a);
-            string b = CLib.Security.AESHelper.EncryptAES(a);
+            string b = CLib.CSecurity.AESHelper.EncryptAES(a);
             Console.WriteLine(b);
-            Console.WriteLine(CLib.Security.AESHelper.DecryptAES(b));
+            Console.WriteLine(CLib.CSecurity.AESHelper.DecryptAES(b));
 
-            Console.WriteLine(CLib.Basic.EnumHelper.GetDescription(CLib.Network.NetworkHelper.GetConnectionStatus("www.baidu.com")));
+            Console.WriteLine(CLib.CBasic.EnumHelper.GetDescription(CLib.CNetwork.NetworkHelper.GetConnectionStatus("www.baidu.com")));
 
             Console.ReadLine();
         }

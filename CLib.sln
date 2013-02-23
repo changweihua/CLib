@@ -1,19 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Network", "Network\Network.csproj", "{6A90815B-5B2D-4D00-BD9F-C2406A63BCBD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CNetwork", "Network\CNetwork.csproj", "{6A90815B-5B2D-4D00-BD9F-C2406A63BCBD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Security", "Security\Security.csproj", "{788554F7-4F9E-442C-BC40-AAE031EE5695}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSecurity", "Security\CSecurity.csproj", "{788554F7-4F9E-442C-BC40-AAE031EE5695}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CImage", "Image\CImage.csproj", "{77031C93-7E2D-45BE-9973-B4DB1EF8C5AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basic", "Basic\Basic.csproj", "{6B69A121-82A4-4164-BE79-D923B362CB2D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CBasic", "Basic\CBasic.csproj", "{6B69A121-82A4-4164-BE79-D923B362CB2D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinForm", "WinForm\WinForm.csproj", "{124F2F99-EC88-4936-9B76-6C4D0161108C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleTest", "ConsoleTest\ConsoleTest.csproj", "{FB2477FC-7C57-4D46-88F7-E0EA807F4388}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Extension", "Extension\Extension.csproj", "{EB906F2D-3F9E-453A-95B1-7AFD4B228E9A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CExtension", "Extension\CExtension.csproj", "{EB906F2D-3F9E-453A-95B1-7AFD4B228E9A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
