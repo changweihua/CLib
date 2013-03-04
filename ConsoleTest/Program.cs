@@ -47,6 +47,7 @@ namespace ConsoleTest
 
             Console.WriteLine(CLib.CBasic.EnumHelper.GetDescription(CLib.CNetwork.NetworkHelper.GetConnectionStatus("www.baidu.com")));
 
+
             Console.ReadLine();
         }
     }
