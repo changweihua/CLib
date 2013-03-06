@@ -49,6 +49,10 @@
       <Project>{6b69a121-82a4-4164-be79-d923b362cb2d}</Project>
       <Name>CBasic</Name>
     </ProjectReference>
+    <ProjectReference Include="..\CCom\CCom.csproj">
+      <Project>{dfcf0dd8-0d79-4f4e-b302-4d9d58a3f72d}</Project>
+      <Name>CCom</Name>
+    </ProjectReference>
     <ProjectReference Include="..\CWeb\CWeb.csproj">
       <Project>{edf7e08e-fbdd-416d-ad86-25aebe7c39ff}</Project>
       <Name>CWeb</Name>

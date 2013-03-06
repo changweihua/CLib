@@ -44,6 +44,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BitmapExtension.cs" />
+    <Compile Include="CColor.cs" />
+    <Compile Include="CImageEdge.cs" />
     <Compile Include="ImageStringHelper.cs" />
     <Compile Include="ImageX.cs" />
     <Compile Include="LockBitmap.cs" />

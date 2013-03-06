@@ -148,7 +148,12 @@ namespace CLib.CImage
         }
 
 
-        //黑白
+        /// <summary>
+        /// 黑白
+        /// </summary>
+        /// <param name="bmp"></param>
+        /// <param name="type"></param>
+        /// <returns></returns>
         public static Bitmap GrayImage(this Bitmap bmp, int type)
         {
             int height = bmp.Height;
@@ -192,7 +197,11 @@ namespace CLib.CImage
         }
 
 
-        //浮雕
+        /// <summary>
+        /// 浮雕
+        /// </summary>
+        /// <param name="bmp"></param>
+        /// <returns></returns>
         public static Bitmap EmbossmentImage(this Bitmap bmp)
         {
             int height = bmp.Height;
@@ -235,7 +244,11 @@ namespace CLib.CImage
             return newbmp;
         }
 
-        //柔化
+        /// <summary>
+        /// 柔化
+        /// </summary>
+        /// <param name="bmp"></param>
+        /// <returns></returns>
         public static Bitmap SoftenImage(this Bitmap bmp)
         {
             int height = bmp.Height;
@@ -285,7 +298,11 @@ namespace CLib.CImage
             return newbmp;
         }
 
-        //锐化
+        /// <summary>
+        /// 锐化
+        /// </summary>
+        /// <param name="bmp"></param>
+        /// <returns></returns>
         public static Bitmap SharpenImage(this Bitmap bmp)
         {
             int height = bmp.Height;
@@ -331,7 +348,11 @@ namespace CLib.CImage
             return newbmp;
         }
 
-        //雾化
+        /// <summary>
+        /// 雾化
+        /// </summary>
+        /// <param name="bmp"></param>
+        /// <returns></returns>
         public static Bitmap AtomizationImage(this Bitmap bmp)
         {
             int height = bmp.Height;

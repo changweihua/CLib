@@ -47,7 +47,42 @@ namespace ConsoleTest
 
             Console.WriteLine(CLib.CBasic.EnumHelper.GetDescription(CLib.CNetwork.NetworkHelper.GetConnectionStatus("www.baidu.com")));
 
+            var query1 = CLib.CBasic.RandomHelper.BuildRandomSequence1(10);
+            foreach (var item in query1)
+            {
+                Console.Write(item + "\t");
+            }
+            Console.WriteLine();
 
+            var query2 = CLib.CBasic.RandomHelper.BuildRandomSequence2(10);
+            foreach (var item in query2.Keys)
+            {
+                Console.Write(item + "\t");
+            }
+            Console.WriteLine();
+
+            var query3 = CLib.CBasic.RandomHelper.BuildRandomSequence3(10);
+            foreach (var item in query3)
+            {
+                Console.Write(item + "\t");
+            }
+            Console.WriteLine();
+
+            var query4 = CLib.CBasic.RandomHelper.BuildRandomSequence4(1, 10);
+            foreach (var item in query4)
+            {
+                Console.Write(item + "\t");
+            }
+            Console.WriteLine();
+
+            string error = "";
+            bool flag = CCom.WordHelper.DOC2PDF(@"D:\resume.doc", @"D:\resume.pdf", out error);
+            Console.WriteLine(flag + "\t" + error);
+
+            CLib.CNetwork.CDialer ras = new CLib.CNetwork.CDialer();
+            ras.Disconnect();//断开连接
+            ras.Connect("ADSL");//重新拨号
+            Console.WriteLine(ras.Connections.Length);
             Console.ReadLine();
         }
     }
